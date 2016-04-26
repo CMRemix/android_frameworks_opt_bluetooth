@@ -1,6 +1,8 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
+LOCAL_CFLAGS += -Os
+
 LOCAL_MODULE_TAGS := optional
 
 src_dirs:= src/android/bluetooth/client/pbap
